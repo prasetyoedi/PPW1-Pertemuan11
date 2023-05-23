@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dialog Prompt</title>
+    <script>
+        // jendela alert
+        window.alert("Hello World1");
+        alert("Hello World2");
+
+        // jendela confirm
+        var yakin = confirm("Apakah yakin akan mengunjungi petani kode?");
+
+        if(yakin){
+            window.location = "https://www.petanikode.com/";
+        }else{
+            document.write("Baiklah, tetap disini saja")
+        }
+    </script>
+</head>
+<body>
+    <button onclick="alert('Tombol diklik')">Klik Tombol</button>
+
+</body>
+</html>

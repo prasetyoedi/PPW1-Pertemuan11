@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operator Perbandingan</title>
+    <script>
+        var aku = 20;
+        var kamu = 19;
+        
+        // sama dengan 
+        var hasil = aku == kamu;
+        document.write(`${aku} == ${kamu} = ${hasil}<br/>`);
+
+        // lebih besar
+        var hasil = aku > kamu;
+        document.write(`${aku} > ${kamu} = ${hasil}<br/>`);
+
+        // lebih besar sama dengan
+        var hasil = aku >= kamu;
+        document.write(`${aku} >= ${kamu} = ${hasil}<br/>`);
+
+        // lebih kecil 
+        var hasil = aku < kamu;
+        document.write(`${aku} < ${kamu} = ${hasil}<br/>`);
+
+        // lebih kecil sama dengan
+        var hasil = aku <= kamu;
+        document.write(`${aku} <= ${kamu} = ${hasil}<br/>`);
+
+        // tidak sama dengan
+        var hasil = aku != kamu;
+        document.write(`${aku} != ${kamu} = ${hasil}<br/>`);
+
+        // membandingkan tipe data
+        // ini akan bernilai true
+        var a = "4" == 4; // -> true
+        document.write(a);
+
+        // sedangkan ini akan bernilai false
+        var b = "4" === 4; // -> false
+        document.write('<br/>' + b);
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
